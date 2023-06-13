@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter Words</title>
+  <link rel="stylesheet" href="./src/css/all.min.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+
+  <main class="main">
+    <textarea class="write__area" name="" id="writerArea" cols="30" rows="10"></textarea>
+
+    <div class="wrapper__words">
+      <div class="all__counters">
+        <div class="counter__words">
+          <span>Counter Words:</span>
+          <span class="num__count" id="counter">0</span>
+        </div>
+        <div class="counter__characters">
+          <span>Counter Characters:</span>
+          <span class="num__count" id="counterCharacters">0</span>
+        </div>
+        
+        <div class="counter__characters">
+          <span>Counter Pagrapah:</span>
+          <span class="num__count" id="counterPagrapah">0</span>
+        </div>
+      </div>
+
+      <div class="repeat__words">
+        <span>Repeat Words:</span>
+        <div id="repeat" class="repeat__wraper"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="./src/js/app.js"></script>
+</body>
+</html>
